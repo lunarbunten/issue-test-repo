@@ -1,5 +1,7 @@
-name: Bug report
+name: "Bug report"
 description: "Create a bug report"
+title: "[BUG]"
+labels: ''
 body:
   - type: input
     id: version
@@ -45,3 +47,6 @@ body:
       label: Additional information
       description: >-
         Provide a list of additional mods you are using
+    validations:
+      required: false
+****
